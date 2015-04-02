@@ -13,6 +13,10 @@
 		C9E116421ACDD52800F8024C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E116411ACDD52800F8024C /* Images.xcassets */; };
 		C9E116451ACDD52800F8024C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E116431ACDD52800F8024C /* LaunchScreen.xib */; };
 		C9E116511ACDD52800F8024C /* Class2ArcExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E116501ACDD52800F8024C /* Class2ArcExamplesTests.swift */; };
+		C9E1165B1ACDE39200F8024C /* ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1165A1ACDE39200F8024C /* ARC.swift */; };
+		C9E1165D1ACDE3AD00F8024C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1165C1ACDE3AD00F8024C /* Person.swift */; };
+		C9E1165F1ACDE3BE00F8024C /* Apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1165E1ACDE3BE00F8024C /* Apartment.swift */; };
+		C9E116631ACDE9D200F8024C /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E116621ACDE9D200F8024C /* CreditCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		C9E1164A1ACDD52800F8024C /* Class2ArcExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Class2ArcExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E1164F1ACDD52800F8024C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9E116501ACDD52800F8024C /* Class2ArcExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class2ArcExamplesTests.swift; sourceTree = "<group>"; };
+		C9E1165A1ACDE39200F8024C /* ARC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARC.swift; sourceTree = "<group>"; };
+		C9E1165C1ACDE3AD00F8024C /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C9E1165E1ACDE3BE00F8024C /* Apartment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apartment.swift; sourceTree = "<group>"; };
+		C9E116621ACDE9D200F8024C /* CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				C9E116411ACDD52800F8024C /* Images.xcassets */,
 				C9E116431ACDD52800F8024C /* LaunchScreen.xib */,
 				C9E116381ACDD52800F8024C /* Supporting Files */,
+				C9E1165A1ACDE39200F8024C /* ARC.swift */,
+				C9E1165C1ACDE3AD00F8024C /* Person.swift */,
+				C9E1165E1ACDE3BE00F8024C /* Apartment.swift */,
+				C9E116621ACDE9D200F8024C /* CreditCard.swift */,
 			);
 			path = Class2ArcExamples;
 			sourceTree = "<group>";
@@ -212,7 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E116631ACDE9D200F8024C /* CreditCard.swift in Sources */,
+				C9E1165B1ACDE39200F8024C /* ARC.swift in Sources */,
 				C9E1163D1ACDD52800F8024C /* ViewController.swift in Sources */,
+				C9E1165F1ACDE3BE00F8024C /* Apartment.swift in Sources */,
+				C9E1165D1ACDE3AD00F8024C /* Person.swift in Sources */,
 				C9E1163B1ACDD52800F8024C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
