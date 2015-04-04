@@ -1,5 +1,5 @@
 //
-//  CreditCard.swift
+//  Apartment.swift
 //  Class2ArcExamples
 //
 //  Created by Michael Prenez-Isbell on 4/2/15.
@@ -8,14 +8,13 @@
 
 import UIKit
 
-class CreditCard {
+class ApartmentWithStrongRef : Thing  {
     
-    let person: Person?
+    // strong ref to person
+    var person: PersonWithStrongRef?
     
-
-    init (aPerson: Person) {
+    init (aPerson: PersonWithStrongRef) {
         person = aPerson
-        
     }
-   
+
 }

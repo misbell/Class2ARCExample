@@ -1,5 +1,5 @@
 //
-//  Apartment.swift
+//  CreditCard.swift
 //  Class2ArcExamples
 //
 //  Created by Michael Prenez-Isbell on 4/2/15.
@@ -8,12 +8,14 @@
 
 import UIKit
 
-class Apartment {
+class CreditCard : Thing {
     
-    var person: Person?
+    unowned var person: PersonWithStrongRef
     
-    init (aPerson: Person) {
-        person = aPerson
-    }
 
+    init (aPerson: PersonWithStrongRef) {
+        person = aPerson
+        
+    }
+   
 }

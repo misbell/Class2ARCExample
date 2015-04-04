@@ -9,6 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    
+    var myArray = ["mark", "chris", "jason", "julio"]
+    var myemptyarray = []
+    
+    var myDictionary = ["student":"Mark:", "teacher": "Mike"]
+    var myemptydict = [:]
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
