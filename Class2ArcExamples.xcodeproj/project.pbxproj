@@ -10,6 +10,7 @@
 		C9D8DC971ACED9BE00A448F6 /* ApartmentWithWeakRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D8DC961ACED9BE00A448F6 /* ApartmentWithWeakRef.swift */; };
 		C9D8DC991AD02C8800A448F6 /* ARCExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D8DC981AD02C8800A448F6 /* ARCExamples.swift */; };
 		C9D8DC9B1AD031DF00A448F6 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D8DC9A1AD031DF00A448F6 /* Thing.swift */; };
+		C9D8DC9D1AD04C2E00A448F6 /* CustomerWithStrongRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D8DC9C1AD04C2E00A448F6 /* CustomerWithStrongRef.swift */; };
 		C9E1163B1ACDD52800F8024C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1163A1ACDD52800F8024C /* AppDelegate.swift */; };
 		C9E1163D1ACDD52800F8024C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1163C1ACDD52800F8024C /* ViewController.swift */; };
 		C9E116401ACDD52800F8024C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E1163E1ACDD52800F8024C /* Main.storyboard */; };
@@ -18,7 +19,7 @@
 		C9E116511ACDD52800F8024C /* Class2ArcExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E116501ACDD52800F8024C /* Class2ArcExamplesTests.swift */; };
 		C9E1165D1ACDE3AD00F8024C /* PersonWithStrongRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1165C1ACDE3AD00F8024C /* PersonWithStrongRef.swift */; };
 		C9E1165F1ACDE3BE00F8024C /* ApartmentWithStrongRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1165E1ACDE3BE00F8024C /* ApartmentWithStrongRef.swift */; };
-		C9E116631ACDE9D200F8024C /* UnowedCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E116621ACDE9D200F8024C /* UnowedCreditCard.swift */; };
+		C9E116631ACDE9D200F8024C /* CreditCardWithUnownedRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E116621ACDE9D200F8024C /* CreditCardWithUnownedRef.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		C9D8DC961ACED9BE00A448F6 /* ApartmentWithWeakRef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApartmentWithWeakRef.swift; sourceTree = "<group>"; };
 		C9D8DC981AD02C8800A448F6 /* ARCExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCExamples.swift; sourceTree = "<group>"; };
 		C9D8DC9A1AD031DF00A448F6 /* Thing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		C9D8DC9C1AD04C2E00A448F6 /* CustomerWithStrongRef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerWithStrongRef.swift; sourceTree = "<group>"; };
 		C9E116351ACDD52800F8024C /* Class2ArcExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Class2ArcExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E116391ACDD52800F8024C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9E1163A1ACDD52800F8024C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +49,7 @@
 		C9E116501ACDD52800F8024C /* Class2ArcExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class2ArcExamplesTests.swift; sourceTree = "<group>"; };
 		C9E1165C1ACDE3AD00F8024C /* PersonWithStrongRef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonWithStrongRef.swift; sourceTree = "<group>"; };
 		C9E1165E1ACDE3BE00F8024C /* ApartmentWithStrongRef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApartmentWithStrongRef.swift; sourceTree = "<group>"; };
-		C9E116621ACDE9D200F8024C /* UnowedCreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnowedCreditCard.swift; sourceTree = "<group>"; };
+		C9E116621ACDE9D200F8024C /* CreditCardWithUnownedRef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardWithUnownedRef.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +90,8 @@
 		C9D8DC8B1ACECF4D00A448F6 /* 3 Unowned */ = {
 			isa = PBXGroup;
 			children = (
-				C9E116621ACDE9D200F8024C /* UnowedCreditCard.swift */,
+				C9D8DC9C1AD04C2E00A448F6 /* CustomerWithStrongRef.swift */,
+				C9E116621ACDE9D200F8024C /* CreditCardWithUnownedRef.swift */,
 			);
 			name = "3 Unowned";
 			sourceTree = "<group>";
@@ -270,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9E116631ACDE9D200F8024C /* UnowedCreditCard.swift in Sources */,
+				C9E116631ACDE9D200F8024C /* CreditCardWithUnownedRef.swift in Sources */,
 				C9D8DC971ACED9BE00A448F6 /* ApartmentWithWeakRef.swift in Sources */,
 				C9E1163D1ACDD52800F8024C /* ViewController.swift in Sources */,
 				C9E1165F1ACDE3BE00F8024C /* ApartmentWithStrongRef.swift in Sources */,
@@ -278,6 +281,7 @@
 				C9D8DC991AD02C8800A448F6 /* ARCExamples.swift in Sources */,
 				C9E1165D1ACDE3AD00F8024C /* PersonWithStrongRef.swift in Sources */,
 				C9E1163B1ACDD52800F8024C /* AppDelegate.swift in Sources */,
+				C9D8DC9D1AD04C2E00A448F6 /* CustomerWithStrongRef.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

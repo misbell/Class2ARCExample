@@ -102,19 +102,19 @@ class ArcExamples {
         // sees other object
         // also lassos it
         
-        var thisPerson : PersonWithStrongRef? = PersonWithStrongRef()
-        var thisApartment : ApartmentWithStrongRef? = ApartmentWithStrongRef(aPerson: thisPerson!)
-        thisPerson!.apartment = thisApartment
+        var thisCustomer : CustomerWithStrongRef? = CustomerWithStrongRef(aCreditCard: UnownedCreditCard())
+  
+     
         
         // now 1 both objects created 2 both objects have strong references to each other
         
         // so now we nil out the apartment
-        thisApartment = nil
+        ////thisApartment = nil
         
         // apartment doesn't go away because person instance still holds strong reference to it
         
         // now we nil out person
-        thisPerson = nil
+        thisCustomer = nil
         
         // person doesn't go away because the apartment object (that didn't go away)
         // still holds a strong reference to the person

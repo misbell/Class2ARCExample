@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ApartmentWithWeakRef : Thing {
+class ApartmentWithWeakRef : Place {
     
+    // can be nil, so optional
     weak var person: PersonWithStrongRef?
     
     init (aPerson: PersonWithStrongRef) {
@@ -17,4 +18,10 @@ class ApartmentWithWeakRef : Thing {
     }
 
 }
+
+//unowned(safe) and unowned(unsafe).
+//http://www.drewag.me/posts/7-cool-features-in-swift
+
+
+//http://mikebuss.com/2014/06/22/lazy-initialization-swift/
 

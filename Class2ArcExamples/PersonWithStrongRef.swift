@@ -12,14 +12,17 @@ class PersonWithStrongRef {
     
 
     // strong ref to apartment
-    var apartment: Thing?
+    var apartment: Place?
+   
     
     
-    init (anApartment: Thing) {
+    init (anApartment: Place) {
         
         apartment = anApartment
         
     }
+    
+
     
     init() {
         

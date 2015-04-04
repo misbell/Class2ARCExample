@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ApartmentWithStrongRef : Thing  {
+class ApartmentWithStrongRef : Place  {
     
     // strong ref to person
     var person: PersonWithStrongRef?

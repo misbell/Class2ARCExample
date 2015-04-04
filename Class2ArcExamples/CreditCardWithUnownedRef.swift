@@ -8,13 +8,20 @@
 
 import UIKit
 
-class CreditCard : Thing {
+class UnownedCreditCard  {
     
+    // can never be nil, so non-optional
     unowned var person: PersonWithStrongRef
     
 
     init (aPerson: PersonWithStrongRef) {
         person = aPerson
+        
+    }
+    
+    init() {
+        
+        person = PersonWithStrongRef()
         
     }
    
