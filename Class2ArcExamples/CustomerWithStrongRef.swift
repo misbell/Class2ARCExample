@@ -22,12 +22,15 @@ class CustomerWithStrongRef {
     
     
     // strong ref to credit card
-    let creditCard: UnownedCreditCard
+    var creditCard: CreditCardWithUnownedRef?
     
     
-    init (aCreditCard: UnownedCreditCard) {
+ 
+    
+    init() {
         
-        creditCard = aCreditCard
+
+        creditCard = nil
         
     }
     

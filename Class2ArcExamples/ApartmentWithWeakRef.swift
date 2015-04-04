@@ -16,12 +16,10 @@ class ApartmentWithWeakRef : Place {
     init (aPerson: PersonWithStrongRef) {
         person = aPerson
     }
+    
+    override init() {
+        person = nil
+    }
 
 }
-
-//unowned(safe) and unowned(unsafe).
-//http://www.drewag.me/posts/7-cool-features-in-swift
-
-
-//http://mikebuss.com/2014/06/22/lazy-initialization-swift/
 

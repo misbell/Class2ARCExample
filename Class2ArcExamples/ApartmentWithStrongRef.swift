@@ -17,4 +17,7 @@ class ApartmentWithStrongRef : Place  {
         person = aPerson
     }
 
+    override init() {
+        person  = nil
+    }
 }
